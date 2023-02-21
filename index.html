@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+   <div class="screen">
+   <div class="entrain" id="input"></div>
+   <div class="input">
+       <div class="input" id="result"></div>
+       <div class="operation" id="output"></div>
+   </div>
+   </div>
+   
+   <div class="medium">
+       <div class="container">
+           <a href="equation.html"><img src="squared.png" class="delete"></a>
+           <img class="delete" src="delete1.png" onclick="keyboard('delete')">
+       </div>
+       <div class="line"></div>
+   </div>
+   
+   <div class="board">
+       <div class="left">
+           <div class="top">
+               <div class="opss white" onclick="keyboard('c')">C
+              <div class="cercle3"></div>
+                   <div class="cercle4"></div>
+               </div>
+               <div class="opss white" onclick="keyboard('pn')">+/-
+               <div class="cercle3"></div>
+                   <div class="cercle4"></div>
+               </div>
+               <div class="opss white" onclick="keyboard('%')">%
+               <div class="cercle3"></div>
+                   <div class="cercle4"></div>
+               </div>
+               <div class="hlie W"></div>
+           </div>
+           <div class="mid">
+               <div class="col">
+               <div class="opss nums" value="7" onclick="keyboard(7)">7
+               <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+                   <div class="cercle3"></div>
+                   <div class="cercle4"></div>
+               </div>
+               <div class="opss nums" value="8" onclick="keyboard('8')">8
+               <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+                   <div class="cercle3"></div>
+                   <div class="cercle4"></div>
+               </div>
+               <div class="opss nums" value="9" onclick="keyboard(9)">9
+               <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+               </div>
+               <div class="hlie"></div>
+               </div>
+               <div class="col">
+               <div class="opss nums" value="4" onclick="keyboard(4)">4
+               <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+                   <div class="cercle3"></div>
+                   <div class="cercle4"></div>
+               </div>
+               <div class="opss nums" value="5" onclick="keyboard(5)">5
+               <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+                   <div class="cercle3"></div>
+                   <div class="cercle4"></div>
+               </div>
+               <div class="opss nums" value="6" onclick="keyboard(6)">6
+               <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+               </div>
+               <div class="hlie"></div>
+               </div>
+               <div class="col">
+               <div class="opss nums" values="1" onclick="keyboard(1)">1
+               <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+                  <div class="cercle3"></div>
+                   <div class="cercle4"></div>
+               </div>
+               <div class="opss nums" value="2" onclick="keyboard(2)">2
+               <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+                  <div class="cercle3"></div>
+                   <div class="cercle4"></div> 
+               </div>
+               <div class="opss nums" value="3" onclick="keyboard(3)">3
+               <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+               </div>
+               <div class="hlie"></div>
+               </div>
+               <div class="col">
+               <div class="opss zero" value="0" onclick="keyboard('0')">0
+               <div class="cercle3 o"></div>
+                   <div class="cercle4 o"></div>
+               </div>
+               <div class="opss dot" value="." onclick="keyboard('.')"> &#46</div>
+               <div class="hlie"></div>
+               </div>
+               <div class="vlie first"></div>
+               <div class="vlie"></div>
+               <div class="vlie last"></div>
+           </div>
+       </div>
+       <div class="right">
+           <div class="ops">
+               <div class="opss" onclick="keyboard('÷')">÷
+                   <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+               </div>
+               <div class="opss" onclick="keyboard('×')">×
+                   <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+               </div>
+               <div class="opss" onclick="keyboard('-')">&#8722
+                   <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+               </div>
+               <div class="opss" onclick="keyboard('+')">+
+                   <div class="cercle1"></div>
+                   <div class="cercle2"></div>
+               </div>               
+               <div class="lie"></div>
+           </div>
+           <div class="opss eq" onclick="keyboard('=')">=
+           <div class="drop"></div>
+           </div>
+       </div>
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>

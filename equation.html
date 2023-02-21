@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quadratic equation solver</title>
+    <link rel="stylesheet" href="equation.css">
+</head>
+<body>
+    <a href="index.html">
+        <img class="back" src="backward.png">
+    </a>
+    <div class="title">
+    <div class="div">Quadratic equation solver</div>
+    </div>
+    <div id="bar"></div>
+    <div class="equation">
+        <div id="asign" value='+' onclick="change(asign)">
+        <div class="sign" >(+)</div>
+        </div>
+        <input type="Number" id="a">
+        <div class="x">X
+            <div class="square">2</div>
+        </div>
+        <div id="bsign" value='+' onclick="change(bsign)">
+        <div class="sign" >+</div>
+        </div>
+        <input type="Number" id="b">
+        <div>X</div>
+        <div id="csign" value='+' onclick="change(csign)">
+        <div class="sign" >+</div>
+        </div>
+        <input type="Number" id="c">
+        <div>= 0</div>
+    </div>
+    <div class="note">(Click the plus sign to turn it minus)</div>
+    <div class="btn">
+        <button class="submit" id="submit"> find roots</button>
+    </div>
+    <div class="result" id="result">
+        
+    </div>
+    <div class="reset" id="reset">
+        
+    </div>
+    <script src="equation.js"></script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+body{
+    background-color: #403255;
+}
+.ops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    position: relative;
+}
+.opss{
+    background-color: #844FE3;
+    color: white;
+    border: transparent;
+    border-radius: 8rem;
+    height: 12rem;
+    width: 12rem;
+    text-align: center;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    position: relative;
+    transition: .15s;
+}
+.opss:active{
+    font-size: 5rem;
+}
+.lie{
+    position: absolute;
+    height: 35rem;
+    width: 2.9rem;
+    background-color: #844FE3;
+}
+.cercle1{
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #403255;
+    z-index:50;
+    border-radius: 4rem;
+    top: 11.8rem;
+    left: 3rem;
+}
+.cercle2{
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #403255;
+    z-index:50;
+    border-radius: 4rem;
+    top: 11.8rem;
+    right: 3rem;
+}
+.white{
+    background-color: #C9C5CF;
+    color: black;
+    font-size: 3.5rem;
+    z-index: 100;
+    position: relative;
+    transition: .15s;
+}
+.white:active{
+    font-size: 2.5rem;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 2rem;
+    position: relative;
+}
+.board{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: start;
+    flex-direction: row; 
+    position: fixed;
+    bottom: 8rem;
+    left: 4rem; 
+    column-gap: 2rem; 
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 34rem;
+    position: relative;
+}
+.nums{
+    background-color: #71697E;
+    color: white;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 2rem;
+    position: relative;
+    z-index: 100;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    position: relative;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    position: relative;
+}
+.zero{
+    background-color: #71697E;
+    color: white;
+    width: 21rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5rem;
+}
+.dot{
+    background-color: #71697E;
+    color: white;
+}
+.hlie{
+    position: absolute;
+    width: 35rem;
+    height: 2.9rem;
+    background-color: #71697E;
+}
+.W{
+    background-color: #C9C5CF;
+}
+.vlie{
+    position: absolute;
+    height: 35rem;
+    width: 2.9rem;
+    background-color: #71697E;
+}
+.first{
+    left: 1.7rem;
+}
+.last{
+    right: 1.7rem;
+}
+.cercle3{
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #403255;
+    z-index:50;
+    border-radius: 4rem;
+    left: 11.8rem;
+    top: 3rem;
+}
+.cercle4{
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #403255;
+    z-index:50;
+    border-radius: 4rem;
+    left: 11.8rem;
+    bottom: 3rem;
+}
+.o{
+    left: 25.8rem;
+}
+.eq{
+    background-image:linear-gradient(to bottom right, #9F5DC3, #9F5DC3, #844FE3 70%);
+    positon: relative;
+}
+.drop{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background-color: #844FE3;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    border-top-left-radius: 4rem;
+    bottom: -4.8rem;
+    transform: rotate(-45deg);
+}
+.input{
+    color: #d5bfff;
+    font-size: 10rem;
+    font-weight: 400;
+}
+.operation{
+    color: #685A7D;
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+.screen{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    position: fixed;
+    bottom: 88rem;
+    right: 4rem;
+    width: 300vw;
+    overflow: hidden;
+    
+}
+
+.entrain{
+    color: white;
+    font-size: 8rem;
+}
+
+.line{
+    width: 52rem;
+    height: .1rem;
+    background-color: black;
+    border-radius: 2rem;
+}
+
+.medium{
+    position: fixed;
+    top: 29rem;
+    left: 5rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 48rem;
+    margin-left: 2rem;
+}
+.delete{
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 1rem;
+}

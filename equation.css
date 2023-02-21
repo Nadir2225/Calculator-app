@@ -1,0 +1,164 @@
+html { 
+    height: 100%; 
+} 
+body { 
+    height: 100%; 
+    margin: 0; 
+    background-repeat: no-repeat;                         
+    background-attachment: fixed; 
+    background-image: linear-gradient(to bottom right, #eabfff, #8d6bb7);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 3rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+    left: 8rem;
+    animation: floating 5s infinite;
+}
+.equation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    top: 20rem;
+    left: .5rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.x{
+    position:relative;
+    margin-right: 3rem;
+}
+.square{
+    position: absolute;
+    font-size: 2.5rem;
+    top: -1rem;
+    right: -2rem;
+}
+input{
+    color: #ffd5bf;
+    font-size: 4rem;
+    border: none;
+    background-color: transparent;
+    width: 11rem;
+    text-align: center;
+}
+input:focus{
+    outline: 0; 
+    border-bottom: .2rem solid #ffd5bf;
+}
+.sign{
+    margin-right: 2rem;
+    font-size: 3.5rem;
+}
+.note{
+    position: absolute;
+    top: 32rem;
+    font-size: 2rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    top: 40rem;
+    left: 2rem;
+    font-size: 3rem;
+}
+.submit{
+   background-color: #403255;
+   width: 56rem;
+   height: 5rem;
+   color: white;
+   font-size: 3rem;
+   font-weight: 500; 
+   border-radius: 1rem;
+   opacity: .5;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    position: absolute;
+    top: 60rem;
+    left: 10rem; 
+    font-size: 5rem;
+    row-gap: 3rem;
+}
+.rx1{
+    position: relative;
+}
+.the1{
+    position: absolute;
+    right: 2.2rem;
+    bottom: -.5rem;
+    font-size: 3rem;
+}
+
+.x1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 2rem;
+    border: .3rem solid #ffd5bf;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.answer1{
+    color: #ffd5bf;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    bottom: 20rem;
+    left: 2rem;
+    font-size: 3rem;
+    margin: 0;
+}
+.reset button{
+    background-color: #403255;
+   width: 56rem;
+   height: 5rem;
+   color: white;
+   font-size: 3rem;
+   font-weight: 500; 
+   border-radius: 1rem;
+}
+.bar{
+    position: absolute;
+    top: 20rem;
+    left: 0rem;
+    width: 100vw;
+    background-color: transparent;
+    height: 10rem;
+    overflow: hidden;
+    z-index: 100;
+}
+.back{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    top: 1.5rem;
+    left: 1rem;
+}
+
+@keyframes floating {
+    0% {top: 2rem;}
+    25% {top: 4rem;}
+    50% {top: 2rem;}
+    75% {top: 4rem;}
+    100% {top: 2rem;}
+}
