@@ -10,6 +10,7 @@ this calculator app supports:
 only mobile friendly
 (developped using just a phone not a computer)
 <br>
+-app link: <a href="https://nadir2225.github.io/Calculator-app/">nadir2225.github.io/Calculator-app</a>
 # tips
 <br>
 -> to take a look at it from your computer zoom out, doing that the design will still be a little diffrent but its usable <br>
