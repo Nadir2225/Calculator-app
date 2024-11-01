@@ -13,7 +13,7 @@ only mobile friendly
 # tips
 <br>
 -> to take a look at it from your computer zoom out, doing that the design will still be a little diffrent but its usable <br>
-<img src="https://github.com/user-attachments/assets/f49a2441-4aca-4010-921e-438a1c0e0834" /> <br>
+<img src="https://github.com/user-attachments/assets/f49a2441-4aca-4010-921e-438a1c0e0834" style="width: 400px"/> <br>
 
 # mobile screenshots
 
